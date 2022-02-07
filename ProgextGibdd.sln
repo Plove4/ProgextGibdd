@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgextGibdd", "ProgextGibdd\ProgextGibdd.csproj", "{CFE47C2E-78BD-4787-842C-D32A316610B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFE47C2E-78BD-4787-842C-D32A316610B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE47C2E-78BD-4787-842C-D32A316610B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE47C2E-78BD-4787-842C-D32A316610B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE47C2E-78BD-4787-842C-D32A316610B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDFB60AD-48D4-4E71-B86B-5F6D38B32B55}
+	EndGlobalSection
+EndGlobal

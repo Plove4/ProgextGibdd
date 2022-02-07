@@ -1,0 +1,24 @@
+﻿<Page x:Class="ProgextGibdd.Pages.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProgextGibdd.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LoginPage">
+
+    <Grid Background="#d1eefc">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Login: " FontSize="18" Margin="10"></TextBlock>
+                <TextBox x:Name="LogintxtBox" Width="200" Height="25" Margin="40 10 10 10"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Password: " FontSize="18" Margin="10"></TextBlock>
+                <TextBox x:Name="PasswordtxtBox" Width="200" Height="25" Margin="10"></TextBox>
+            </StackPanel>
+            <Button Name="Comebtn" Click="Comebtn_Click" Content="Войти" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="25" Margin="10" Background="#fffcd6" FontSize="15"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
