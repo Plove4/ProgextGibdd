@@ -15,36 +15,36 @@
         </Grid.RowDefinitions>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <WrapPanel>
-                <TextBlock Text="Фамилия: " Width="150" Height="25" FontFamily="Century Gothic" Padding="5" Margin="5"></TextBlock>
-                <TextBox Text="{Binding SurName}" Width="150" Height="20"></TextBox>
+                <TextBlock Text="Фамилия: " Width="180" Height="25" FontSize="18" Margin="5"></TextBlock>
+                <TextBox Text="{Binding SurName}" Width="220" Height="25"></TextBox>
             </WrapPanel>
             <WrapPanel>
-                <TextBlock Text="Имя: " Width="150" Height="25" FontFamily="Century Gothic" Padding="5" Margin="5"></TextBlock>
-                <TextBox Text="{Binding Name}" Width="150" Height="20"></TextBox>
+                <TextBlock Text="Имя: " Width="180" Height="25" FontSize="18" Margin="5"></TextBlock>
+                <TextBox Text="{Binding Name}" Width="220" Height="25"></TextBox>
             </WrapPanel>
             <WrapPanel>
-                <TextBlock Text="Отчество: " Width="150" Height="25" FontFamily="Century Gothic" Padding="5" Margin="5"></TextBlock>
-                <TextBox Text="{Binding MiddlName}" Width="150" Height="20"></TextBox>
+                <TextBlock Text="Отчество: " Width="180" Height="25" FontSize="18" Margin="5"></TextBlock>
+                <TextBox Text="{Binding MiddlName}" Width="220" Height="25"></TextBox>
             </WrapPanel>
             <WrapPanel>
-                <TextBlock Text="Паспортные данные: " Width="150" Height="25" FontFamily="Century Gothic" Padding="5" Margin="5"></TextBlock>
-                <TextBox Text="{Binding Passport}" Width="150" Height="20"></TextBox>
+                <TextBlock Text="Паспортные данные: " Width="180" Height="25" FontSize="18" Margin="5"></TextBlock>
+                <TextBox Text="{Binding Passport}" Width="220" Height="25"></TextBox>
             </WrapPanel>
             <WrapPanel>
-                <TextBlock Text="Адресс: " Width="150" Height="25" FontFamily="Century Gothic" Padding="5" Margin="5"></TextBlock>
-                <TextBox Text="{Binding Address}" Width="150" Height="20"></TextBox>
+                <TextBlock Text="Адрес: " Width="180" Height="25" FontSize="18" Margin="5"></TextBlock>
+                <TextBox Text="{Binding Address}" Width="220" Height="25"></TextBox>
             </WrapPanel>
             <WrapPanel>
-                <TextBlock Text="Компания: " Width="150" Height="25" FontFamily="Century Gothic" Padding="5" Margin="5"></TextBlock>
-                <TextBox Text="{Binding Company}" Width="150" Height="20"></TextBox>
+                <TextBlock Text="Компания: " Width="180" Height="25" FontSize="18" Margin="5"></TextBlock>
+                <TextBox Text="{Binding Company}" Width="220" Height="25"></TextBox>
             </WrapPanel>
             <WrapPanel>
-                <TextBlock Text="Номер телефона: " Width="150" Height="25" FontFamily="Century Gothic" Padding="5" Margin="5"></TextBlock>
-                <TextBox Text="{Binding PhoneNumber}" Width="150" Height="20"></TextBox>
+                <TextBlock Text="Номер телефона: " Width="180" Height="25" FontSize="18" Margin="5"></TextBlock>
+                <TextBox Text="{Binding PhoneNumber}" Width="220" Height="25"></TextBox>
             </WrapPanel>
             <WrapPanel>
-                <TextBlock Text="Электронная почта: " Width="150" Height="25" FontFamily="Century Gothic" Padding="5" Margin="5"></TextBlock>
-                <TextBox Text="{Binding Email}" Width="150" Height="20"></TextBox>
+                <TextBlock Text="Электронная почта: " Width="180" Height="25" FontSize="18" Margin="5"></TextBlock>
+                <TextBox Text="{Binding Email}" Width="220" Height="25"></TextBox>
             </WrapPanel>
         </StackPanel>
         <Grid Grid.Row="1" Background="#d1eefc">
