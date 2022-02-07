@@ -33,7 +33,7 @@ namespace ProgextGibdd.Pages
         {
             foreach (var item in userlist)
             {
-                if (LogintxtBox.Text == item.Login.ToString() || PasswordtxtBox.Text.ToString() == item.Password.ToString())
+                if (LogintxtBox.Text == item.Login.ToString() || PasswordtxtBox.Password.ToString() == item.Password.ToString())
                 {
                     FrameManeger.frmMain.Navigate(new DriversPage());
                 }
